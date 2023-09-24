@@ -4,7 +4,7 @@
     box-sizing: border;
     font-family: 'Inclusive Sans', sans-serif;
     font-weight: 400;
-    color: black;
+    color: white;
 
 
 }
@@ -19,7 +19,7 @@
 
     max-width: 600px;
     background-color:white;
-    background-image: url('images/avengers.jpg');
+    background-image: url('images/avengers.png');
     background-position: center left;
     background-size: cover;
     margin:0 auto;
@@ -48,4 +48,29 @@
     cursor: pointer;
     padding: 10px;
     text-align: left;
+    transition: all 0.3s;
+}
+
+.btn:hover{
+
+    background-color: black;
+    color:white;
+}
+
+#next-btn{
+
+    background-color: white;
+    color: black;
+    width: 100px;
+    display: block;
+    margin:auto;
+    padding: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#next-btn:hover{
+
+    background-color: black;
+    color:white;
 }
