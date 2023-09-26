@@ -51,10 +51,14 @@
     transition: all 0.3s;
 }
 
-.btn:hover{
+.btn:hover:not([disabled]){
 
     background-color: black;
     color:white;
+}
+
+.btn:disabled{
+    cursor: no-drop;
 }
 
 #next-btn{
@@ -73,4 +77,14 @@
 
     background-color: black;
     color:white;
+}
+
+.correct{
+
+    background-color: #9aeabc;
+}
+
+.incorrect{
+
+    background-color: #ff9393;
 }
