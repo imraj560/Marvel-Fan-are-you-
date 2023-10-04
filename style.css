@@ -4,28 +4,28 @@
     box-sizing: border;
     font-family: 'Inclusive Sans', sans-serif;
     font-weight: 400;
-    color: white;
+    /* color: white; */
 
 
 }
 
-/* body{
+body{
 
-    background-image: linear-gradient(to right, white, black);
-} */
+    background-image: linear-gradient(to right, #81a6cf, #246d66);
+}
 
 
 .app{
 
     max-width: 600px;
     background-color:white;
-    background-image: url('images/avengers.png');
+    /* background-image: url('images/avengers.png'); */
     background-position: center left;
     background-size: cover;
     margin:0 auto;
     padding: 30px;
     margin-top: 100px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 
